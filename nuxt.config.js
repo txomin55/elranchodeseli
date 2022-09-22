@@ -14,7 +14,69 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: '/app.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/bundle.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/themes/hello-elementor/style.min.css?ver=2.6.1'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.7.6'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.7.6'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/uploads/sites/82/elementor/css/post-374.css?ver=1663303626'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.7.6'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/uploads/sites/82/elementor/css/post-404.css?ver=1663303627'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/uploads/sites/82/elementor/css/post-1154.css?ver=1663309274'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.6'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Bowlby+One+SC%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COutfit%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFuzzy+Bubbles%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNoto+Sans+Thai%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.0.2'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -37,4 +99,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  env: {
+    environment: process.env.NODE_ENV
+  }
 }

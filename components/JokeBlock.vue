@@ -4,7 +4,10 @@ export default {
     joke: '',
   }),
   async mounted() {
-    this.joke = await fetch('/api/joke').then((res) => res.json())
+    const develop = process.env.environment === "development"
+    if(!develop){
+      this.joke = await fetch('/api/joke').then((res) => res.json())
+    }
   },
 }
 </script>
