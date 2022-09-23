@@ -64,6 +64,38 @@
                       </li>
                     </ul>
                   </nav>
+                  <div class="elementor-menu-toggle elementor-active" role="button" @click=" menuOpened = !menuOpened">
+                    <i :class="menuOpened ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'"/>
+                  </div>
+
+                  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" v-if="menuOpened" style="top: 42px; width: 400px; left: -327.984px;">
+                    <ul class="elementor-nav-menu">
+                      <li
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1047 current_page_item menu-item-1055"
+                      >
+                        <a
+                          class="elementor-item elementor-item-active"
+                          href="https://bimberonline.com/dogworks/"
+                        >
+                          Home
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a
+                          class="elementor-item" href="https://bimberonline.com/dogworks/template-kit/about-us/"
+                        >
+                          About Us
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a
+                          class="elementor-item" href="https://bimberonline.com/dogworks/template-kit/about-us/"
+                        >
+                          Contact Us
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
               <div
@@ -88,7 +120,12 @@
 </template>
 <script>
 export default {
-  name: "AppHeader"
+  name: "AppHeader",
+  data(){
+    return {
+      menuOpened : false
+    }
+  }
 };
 </script>
 <style>

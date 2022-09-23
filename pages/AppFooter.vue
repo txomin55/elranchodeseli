@@ -163,8 +163,6 @@
                                     <input type="hidden" name="queried_id" value="1047">
                                     <div class="elementor-form-fields-wrapper elementor-labels-">
                                       <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-md-100 elementor-field-required">
-                                        <label for="form-field-email" class="elementor-field-label elementor-screen-only">
-                                          Your Email </label>
                                         <input size="1" type="email" name="form_fields[email]" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Your Email" required="required" aria-required="true">
                                       </div>
                                       <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
@@ -208,20 +206,17 @@
                                   <div class="elementor-social-icons-wrapper elementor-grid">
                                     <span class="elementor-grid-item">
                                       <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-6ea53d2" href="#" target="_blank">
-                                        <span class="elementor-screen-only">Facebook</span>
-                                        <i class="fab fa-facebook"/>
+                                        <i class="fa-brands fa-facebook"/>
                                       </a>
                                     </span>
                                     <span class="elementor-grid-item">
                                       <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-11529f5" href="#" target="_blank">
-                                        <span class="elementor-screen-only">Twitter</span>
-                                        <i class="fab fa-twitter"/>
+                                        <i class="fa-brands fa-twitter"/>
                                       </a>
                                     </span>
                                       <span class="elementor-grid-item">
                                         <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-2aeceea" href="#" target="_blank">
-                                          <span class="elementor-screen-only">Youtube</span>
-                                          <i class="fab fa-youtube"/>
+                                          <i class="fa-brands fa-youtube"/>
                                         </a>
                                     </span>
                                   </div>

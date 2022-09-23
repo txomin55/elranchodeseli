@@ -16,10 +16,5 @@
   status = 200 # ok code
   force = true # ensure to always redirect
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-
 [functions]
   node_bundler = "esbuild"

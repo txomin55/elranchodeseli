@@ -221,8 +221,8 @@
                       <div class="elementor-image">
                         <img alt="" class="attachment-large size-large"
                              height="800"
-                             loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="https://bimberonline.com/dogworks/wp-content/uploads/sites/82/2022/05/img-section-01.png"
-                             srcset="https://bimberonline.com/dogworks/wp-content/uploads/sites/82/2022/05/img-section-01.png 1000w, https://bimberonline.com/dogworks/wp-content/uploads/sites/82/2022/05/img-section-01-300x300.png 300w, https://bimberonline.com/dogworks/wp-content/uploads/sites/82/2022/05/img-section-01-150x150.png 150w, https://bimberonline.com/dogworks/wp-content/uploads/sites/82/2022/05/img-section-01-768x768.png 768w, https://bimberonline.com/dogworks/wp-content/uploads/sites/82/2022/05/img-section-01-800x800.png 800w"
+                             loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="/img-section-01.png"
+                             srcset="/img-section-01.png 1000w, /img-section-01-300x300.png 300w"
                              width="800"></div>
                     </div>
                   </div>
