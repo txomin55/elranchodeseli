@@ -1,8 +1,8 @@
 # Nuxt Toolbox Template
+
 ![template](https://user-images.githubusercontent.com/3611928/156432908-b29b4d5c-bff1-435b-b721-883142cd461b.png)
 
 This is a [NuxtJS](https://nuxtjs.org/) v2 project. It is a reference on how to integrate commonly used features within Netlify for Nuxt.js.
-
 
 ## Table of Contents:
 
@@ -53,10 +53,11 @@ Want to deploy immediately? Click this button
 Clicking this button will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
 
 ### Deploy using the Netlify CLI
+
 Click the 'Use the Template' button at the top of this repo. Then install the Netlify CLI tool and run `netlify init`. Or straight from the Netlify CLI, use the `netlify sites:create-template` command in you terminal ([learn more about this command here](https://www.netlify.com/blog/create-a-site-from-a-template-using-the-netlify-cli)) to do the entire flow for you.
 
 ```bash
-git clone https://github.com/netlify-templates/nuxt-toolbox 
+git clone https://github.com/netlify-templates/nuxt-toolbox
 
 npm install netlify-cli -g # to install the Netlify CLI tool globally
 
@@ -141,7 +142,7 @@ For this to work we also need to add a `netlify-honeypot` attribute to the form 
 
 With Netlify, you can build out server-side code without having to setup and maintain a dedicated server. Inside of our default folder path, [`netlify/functions`](./netlify/functions) you can see an example of the format for JavaScript functions with the [`joke.js`](./netlify/functions/joke.js) file.
 
-The function format expects an `async` function named `handler` to be exported.*
+The function format expects an `async` function named `handler` to be exported.\*
 
 ```js
 export const handler = async () => {
@@ -149,7 +150,7 @@ export const handler = async () => {
 }
 ```
 
-* *Note: ESLint may report that the async is unnecessary if there is no `await` code within the function, but the `async` is required. Do not delete it.*
+- _Note: ESLint may report that the async is unnecessary if there is no `await` code within the function, but the `async` is required. Do not delete it._
 
 This will be the function that will be invoked whenever a client makes a request to the generated endpoints. The endpoint's format is followed as `/.netlify/functions/joke`. So whenever the site is deployed, if you go to `https://<site base url>/.netlify/functions/joke` you will see a random joke!
 
@@ -243,7 +244,6 @@ npm uninstall cypress
 ## Nuxt Toolbox Template Video Walkthrough
 
 https://user-images.githubusercontent.com/76533034/156563030-e3c0c2a1-2e3a-43f0-bcf5-5ea891289553.mp4
-
 
 ## I want moar!
 

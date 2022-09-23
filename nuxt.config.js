@@ -6,68 +6,68 @@ export default {
   head: {
     title: 'El rancho de Seli',
     htmlAttrs: {
-      lang: 'es'
+      lang: 'es',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: '/app.css'
+        href: '/app.css',
       },
       {
         rel: 'stylesheet',
-        href: '/hello-elementor.style.min.css'
+        href: '/hello-elementor.style.min.css',
       },
       {
         rel: 'stylesheet',
-        href: '/frontend-legacy.min.css'
+        href: '/frontend-legacy.min.css',
       },
       {
         rel: 'stylesheet',
-        href: '/frontend.min.css'
+        href: '/frontend.min.css',
       },
       {
         rel: 'stylesheet',
-        href: '/post-374.css'
+        href: '/post-374.css',
       },
       {
         rel: 'stylesheet',
-        href: '/elementor-pro.frontend.min.css'
+        href: '/elementor-pro.frontend.min.css',
       },
       {
         rel: 'stylesheet',
-        href: '/post-404.css'
+        href: '/post-404.css',
       },
       {
         rel: 'stylesheet',
-        href: '/post-407.css'
+        href: '/post-407.css',
       },
       {
         rel: 'stylesheet',
-        href: '/post-1154.css'
+        href: '/post-1154.css',
       },
       {
         rel: 'stylesheet',
-        href: '/animations.min.css'
+        href: '/animations.min.css',
       },
       {
         rel: 'stylesheet',
-        href: '/block-library.style.min.css'
+        href: '/block-library.style.min.css',
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Bowlby+One+SC%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COutfit%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFuzzy+Bubbles%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNoto+Sans+Thai%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.0.2'
+        href: 'https://fonts.googleapis.com/css?family=Bowlby+One+SC%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COutfit%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFuzzy+Bubbles%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNoto+Sans+Thai%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.0.2',
       },
       {
         rel: 'stylesheet',
-        href: 'https://use.fontawesome.com/releases/v6.2.0/css/all.css'
-      }
+        href: 'https://use.fontawesome.com/releases/v6.2.0/css/all.css',
+      },
     ],
   },
 
@@ -92,6 +92,6 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   env: {
-    environment: process.env.NODE_ENV
-  }
+    environment: process.env.NODE_ENV,
+  },
 }

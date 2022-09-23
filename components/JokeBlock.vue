@@ -4,8 +4,8 @@ export default {
     joke: '',
   }),
   async mounted() {
-    const develop = process.env.environment === "development"
-    if(!develop){
+    const develop = process.env.environment === 'development'
+    if (!develop) {
       this.joke = await fetch('/api/joke').then((res) => res.json())
     }
   },
