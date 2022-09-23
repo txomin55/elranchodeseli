@@ -4,18 +4,18 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-toolbox',
+    title: 'El rancho de Seli',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
       {
         rel: 'stylesheet',
         href: '/app.css'
@@ -54,6 +54,10 @@ export default {
       },
       {
         rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/uploads/sites/82/elementor/css/post-407.css?ver=1663303627'
+      },
+      {
+        rel: 'stylesheet',
         href: 'https://bimberonline.com/dogworks/wp-content/uploads/sites/82/elementor/css/post-1154.css?ver=1663309274'
       },
       {
@@ -75,6 +79,14 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://bimberonline.com/dogworks/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.13.0/css/all.css'
       }
     ],
   },
