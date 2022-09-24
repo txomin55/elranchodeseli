@@ -662,7 +662,7 @@ body.rtl .elementor-1154 .elementor-element.elementor-element-f0cdca6 {
   > .elementor-column-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url(https://bimberonline.com/explorer/wp-content/uploads/sites/82/2022/05/male-cynologist-with-trained-working-dog.jpg);
+  background-image: url(/male-cynologist-with-trained-working-dog.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -707,11 +707,25 @@ body.rtl .elementor-1154 .elementor-element.elementor-element-f0cdca6 {
   > .elementor-column-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url(https://bimberonline.com/explorer/wp-content/uploads/sites/82/2022/05/dog-resting-outdoors.jpg);
+  background-image: url(/dog-resting-outdoors.jpg);
   background-position: -525px 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .elementor-1154
+    .elementor-element.elementor-element-3b1f5b4f:not(.elementor-motion-effects-element-type-background)
+    > .elementor-column-wrap,
+  .elementor-1154
+    .elementor-element.elementor-element-3b1f5b4f
+    > .elementor-column-wrap
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0;
+  }
+}
+
 .elementor-1154
   .elementor-element.elementor-element-3b1f5b4f
   > .elementor-element-populated,
@@ -2129,7 +2143,7 @@ body.rtl .elementor-1154 .elementor-element.elementor-element-575e4ac7 {
   .elementor-element.elementor-element-7eca1f1f
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url(https://bimberonline.com/explorer/wp-content/uploads/sites/82/2022/05/img-world-map-01.png);
+  background-image: url(/img-world-map-01.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

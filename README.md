@@ -140,7 +140,7 @@ For this to work we also need to add a `netlify-honeypot` attribute to the form 
 
 ## Netlify Functions
 
-With Netlify, you can build out server-side code without having to setup and maintain a dedicated server. Inside of our default folder path, [`netlify/functions`](./netlify/functions) you can see an example of the format for JavaScript functions with the [`joke.js`](./netlify/functions/joke.js) file.
+With Netlify, you can build out server-side code without having to setup and maintain a dedicated server. Inside of our default folder path, [`netlify/functions`](./netlify/functions) you can see an example of the format for JavaScript functions with the [`posts.js`](./netlify/functions/posts.js) file.
 
 The function format expects an `async` function named `handler` to be exported.\*
 

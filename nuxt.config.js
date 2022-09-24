@@ -54,6 +54,10 @@ export default {
       },
       {
         rel: 'stylesheet',
+        href: '/post-557.css',
+      },
+      {
+        rel: 'stylesheet',
         href: '/animations.min.css',
       },
       {
@@ -87,7 +91,12 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    '@nuxtjs/markdownit'
+  ],
+  markdownit: {
+    runtime: true // Support `$md()`
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
