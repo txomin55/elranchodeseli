@@ -128,19 +128,20 @@
       class="elementor-row"
       style="position: absolute; z-index: 9999"
     >
-      <span v-if="actualPage > 0" @click="prevPage"> Prev </span>
+      <span v-if="actualPage > 0" @click="prevPage"> Ant </span>
       <span
         v-for="(number, idx) in paginationNumbers"
         :key="`paging_${idx}`"
         @click="actualPage = number"
         >{{ number }}</span
       >
-      <span v-if="actualPage < pagesCount - 1" @click="nextPage"> Next </span>
+      <span v-if="actualPage < pagesCount - 1" @click="nextPage"> Sig </span>
     </div>
   </Layout>
 </template>
 <script>
-import posts from '../netlify/functions/data/posts.json'
+
+import getPosts from "~/utils/getPosts";
 
 export default {
   name: 'MyBlog',
@@ -184,7 +185,7 @@ export default {
     },
   },
   mounted() {
-    this.rawPosts = posts
+    this.rawPosts = getPosts()
   },
   methods: {
     prevPage() {

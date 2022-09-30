@@ -126,7 +126,7 @@
                                           />
                                         </span>
                                         <span class="elementor-icon-list-text"
-                                          >Puppy training y guardería</span
+                                          >Puppy training y guardería educativa</span
                                         >
                                       </a>
                                     </li>

@@ -57,23 +57,6 @@
                     </div>
                   </div>
                   <div
-                    class="elementor-element elementor-element-28ac7c30 elementor-widget elementor-widget-button animated fadeInUp"
-                  >
-                    <div class="elementor-widget-container">
-                      <div class="elementor-button-wrapper">
-                        <a
-                          class="elementor-button-link elementor-button elementor-size-lg"
-                          href="#"
-                          role="button"
-                        >
-                          <span class="elementor-button-content-wrapper">
-                            <span class="elementor-button-text">Join Us</span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div
                     class="elementor-element elementor-element-4db21ce elementor-absolute elementor-widget elementor-widget-spacer"
                   >
                     <div class="elementor-widget-container">
@@ -385,8 +368,7 @@
                       <h2
                         class="elementor-heading-title elementor-size-default"
                       >
-                        Adiestramiento canino efectivo, soluciones reales de
-                        comportamiento
+                        Educación y solución a problemas de comportamiento canino
                       </h2>
                     </div>
                   </div>
@@ -821,7 +803,7 @@
                       <div class="elementor-image">
                         <img
                           alt="A teenage girl trains a cute pet dog Jack Russell on the grass in a doggy park in the autumn evening"
-                          src="https://bimberonline.com/dogworks/wp-content/uploads/sites/82/elementor/thumbs/a-teenage-girl-trains-a-cute-pet-dog-jack-russell-on-the-grass-in-a-doggy-park-in-the-autumn-evening-e1653180874583-pp6108eegul84cg2ez3aurq9jfyl0hcouqlwygi5iw.jpg"
+                          src="/20210922162217_IMG_7796.jpg"
                           title="A teenage girl trains a cute pet dog Jack Russell on the grass in a doggy park in the autumn evening"
                         />
                       </div>
@@ -1126,6 +1108,7 @@
                         <BlogCard
                           v-for="(post, idx) in getLastCards()"
                           :key="idx"
+                          :post-id="post.id"
                           :title="post.title"
                           :date="post.date"
                           :image="post.image"
@@ -1211,7 +1194,7 @@
                       <h2
                         class="elementor-heading-title elementor-size-default"
                       >
-                        Cualquier Perro Cualquier Tamaño Cualquier Problema
+                        Cualquier raza, cualquier problema consúltenos estaremos encantados de ayudarle
                       </h2>
                     </div>
                   </div>
@@ -1319,18 +1302,34 @@
           </div>
         </div>
       </section>
+
+      <section>
+        <no-ssr placeholder="Loading...">
+          <carousel-3d width="500">
+            <slide v-for="(image, idx) in images" :key="idx" :index="idx">
+              <img :src="image"/>
+            </slide>
+          </carousel-3d>
+        </no-ssr>
+      </section>
     </div>
   </div>
 </template>
 <script>
-import posts from '~/netlify/functions/data/posts.json'
+import getPosts from "~/utils/getPosts";
+import getCarouselImages from "~/utils/getCarouselImages";
 
 export default {
   name: 'MyHome',
+  data(){
+    return {
+      images : getCarouselImages()
+    }
+  },
   methods: {
     getLastCards() {
-      return posts.sort((a, b) => a.id - b.id).slice(0, 4)
+      return getPosts().sort((a, b) => a.id - b.id).slice(0, 4)
     },
-  },
+  }
 }
 </script>

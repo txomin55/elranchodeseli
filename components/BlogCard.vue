@@ -4,7 +4,6 @@
   >
     <a
       class="elementor-post__thumbnail__link"
-      href="https://bimberonline.com/dogworks/is-your-dog-a-candidate-for-service-dog-work/"
     >
       <div class="elementor-post__thumbnail">
         <img
@@ -20,7 +19,6 @@
     <div class="elementor-post__text">
       <h3 class="elementor-post__title">
         <a
-          href="https://bimberonline.com/dogworks/is-your-dog-a-candidate-for-service-dog-work/"
         >
           {{ $props.title }}
         </a>

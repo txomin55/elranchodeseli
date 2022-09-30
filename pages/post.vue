@@ -231,7 +231,7 @@
                       class="elementor-element elementor-element-009417d elementor-widget elementor-widget-theme-post-content animated fadeInUp"
                     >
                       <div class="elementor-widget-container">
-                        <div v-html="$md.render(postData.post_content)"/>
+                        <div v-html="postData.post_content"/>
                       </div>
                     </div>
                   </div>
@@ -245,18 +245,13 @@
   </Layout>
 </template>
 <script>
-import posts from '../netlify/functions/data/posts.json'
+import getPosts from "~/utils/getPosts";
 
 export default {
   name: 'MyPost',
-  data(){
-    return {
-      model: '# Hello World!'
-    }
-  },
   computed: {
     postData() {
-      return posts.find((p) => p.id === parseInt(this.$route.query.id))
+      return getPosts().find((p) => p.id === parseInt(this.$route.query.id))
     },
   },
 }
