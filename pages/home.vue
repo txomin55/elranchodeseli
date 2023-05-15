@@ -28,7 +28,7 @@
                       <h1
                         class="elementor-heading-title elementor-size-default"
                       >
-                        Trabajo canino
+                        Educación canina
                       </h1>
                     </div>
                   </div>
@@ -39,21 +39,8 @@
                       <h2
                         class="elementor-heading-title elementor-size-default"
                       >
-                        a través de la educación
+                        basado en el respeto por los animales
                       </h2>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-63d4a576 elementor-widget elementor-widget-text-editor animated fadeInUp"
-                  >
-                    <div class="elementor-widget-container">
-                      <div class="elementor-text-editor elementor-clearfix">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                          pulvinar dapibus leo.
-                        </p>
-                      </div>
                     </div>
                   </div>
                   <div
@@ -252,7 +239,7 @@
                                         <span> Clases grupales </span>
                                       </span>
                                       <p class="elementor-icon-box-description">
-                                        + 7 nuevos perros esta semana
+                                        Viernes y sábados
                                       </p>
                                     </div>
                                   </div>
@@ -373,19 +360,6 @@
                     </div>
                   </div>
                   <div
-                    class="elementor-element elementor-element-6b0be707 elementor-widget elementor-widget-text-editor animated fadeInUp"
-                  >
-                    <div class="elementor-widget-container">
-                      <div class="elementor-text-editor elementor-clearfix">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                          pulvinar dapibus leo.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
                     class="elementor-element elementor-element-570d491 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list animated fadeInUp"
                   >
                     <div class="elementor-widget-container">
@@ -398,7 +372,7 @@
                             ></i>
                           </span>
                           <span class="elementor-icon-list-text"
-                            >Desarrolla una relacion sana</span
+                            >Desarrolla una relación sana</span
                           >
                         </li>
                         <li class="elementor-icon-list-item">
@@ -497,21 +471,8 @@
                       <h2
                         class="elementor-heading-title elementor-size-default"
                       >
-                        Nuestros resultados son fantásticos
+                        Nuestros resultados los avalan los clientes
                       </h2>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-507bc9e2 elementor-widget elementor-widget-text-editor animated fadeInUp"
-                  >
-                    <div class="elementor-widget-container">
-                      <div class="elementor-text-editor elementor-clearfix">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                          pulvinar dapibus leo.
-                        </p>
-                      </div>
                     </div>
                   </div>
                   <aside
@@ -642,7 +603,7 @@
                                         data-duration="2000"
                                         data-from-value="0"
                                         data-to-value="12"
-                                        >1</span
+                                        >2</span
                                       >
                                       <span
                                         class="elementor-counter-number-suffix"
@@ -659,54 +620,6 @@
                                     class="elementor-heading-title elementor-size-default"
                                   >
                                     Entrenadores<br />Caninos
-                                  </h3>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a1a63a1 animated fadeInUp"
-                        >
-                          <div
-                            class="elementor-column-wrap elementor-element-populated"
-                          >
-                            <div class="elementor-widget-wrap">
-                              <div
-                                class="elementor-element elementor-element-2f353d86 elementor-widget elementor-widget-counter"
-                              >
-                                <div class="elementor-widget-container">
-                                  <div class="elementor-counter">
-                                    <div
-                                      class="elementor-counter-number-wrapper"
-                                    >
-                                      <span
-                                        class="elementor-counter-number-prefix"
-                                      ></span>
-                                      <span
-                                        class="elementor-counter-number"
-                                        data-delimiter=","
-                                        data-duration="2000"
-                                        data-from-value="0"
-                                        data-to-value="18"
-                                        >100</span
-                                      >
-                                      <span
-                                        class="elementor-counter-number-suffix"
-                                        >+</span
-                                      >
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="elementor-element elementor-element-13eacc3 elementor-widget elementor-widget-heading"
-                              >
-                                <div class="elementor-widget-container">
-                                  <h3
-                                    class="elementor-heading-title elementor-size-default"
-                                  >
-                                    Alumnos
                                   </h3>
                                 </div>
                               </div>
@@ -768,7 +681,7 @@
                     <div class="elementor-widget-container">
                       <span
                         class="elementor-heading-title elementor-size-default"
-                        >Servicio de entrenador canino</span
+                        >Servicio de educación canina</span
                       >
                     </div>
                   </div>
@@ -789,9 +702,7 @@
                     <div class="elementor-widget-container">
                       <div class="elementor-text-editor elementor-clearfix">
                         <p>
-                          Est ullamcorper eget nulla facilisi etiam dignissim
-                          diam quis. Lorem mollis aliquam ut porttitor leo a
-                          diam sollicitudin.
+                          Obediencia básica, solialización de cachorros, guardería educativa y clases grupales
                         </p>
                       </div>
                     </div>
@@ -895,8 +806,7 @@
                                     class="elementor-text-editor elementor-clearfix"
                                   >
                                     <p>
-                                      Ut elit tellus, luctus nec ullamcorper
-                                      mattis, pulvinar dapibus leo.
+                                      Contrata sesiones privadas personalizadas para cubrir las necesidades espećificas de tu perro.
                                     </p>
                                   </div>
                                 </div>
@@ -940,8 +850,7 @@
                                     class="elementor-text-editor elementor-clearfix"
                                   >
                                     <p>
-                                      Ut elit tellus, luctus nec ullamcorper
-                                      mattis, pulvinar dapibus leo.
+                                      Contamos con todo lo necesario para que no falte nada a tu compañero.
                                     </p>
                                   </div>
                                 </div>
@@ -995,8 +904,7 @@
                                     class="elementor-text-editor elementor-clearfix"
                                   >
                                     <p>
-                                      Ut elit tellus, luctus nec ullamcorper
-                                      mattis, pulvinar dapibus leo.
+                                      Tu perro se lo pasará genial con otros muchos en la guardería.
                                     </p>
                                   </div>
                                 </div>
@@ -1040,8 +948,7 @@
                                     class="elementor-text-editor elementor-clearfix"
                                   >
                                     <p>
-                                      Ut elit tellus, luctus nec ullamcorper
-                                      mattis, pulvinar dapibus leo.
+                                      Test sociabilidad, obediencia, detección, mantrailing, IGBH...
                                     </p>
                                   </div>
                                 </div>
@@ -1196,32 +1103,6 @@
                       >
                         Cualquier raza, cualquier problema consúltenos estaremos encantados de ayudarle
                       </h2>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-1a98e45a elementor-widget__width-auto elementor-widget elementor-widget-heading animated zoomIn"
-                  >
-                    <div class="elementor-widget-container">
-                      <h2
-                        class="elementor-heading-title elementor-size-default"
-                      >
-                        Garantizado
-                      </h2>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-48a544fb elementor-widget elementor-widget-text-editor animated fadeInUp"
-                  >
-                    <div class="elementor-widget-container">
-                      <div class="elementor-text-editor elementor-clearfix">
-                        <p>
-                          Velit scelerisque in dictum non consectetur. Tortor
-                          condimentum lacinia quis vel eros donec ac odio. Ut
-                          venenatis tellus in metus vulputate. Pulvinar etiam
-                          non quam lacus. Sit amet consectetur adipiscing elit
-                          duis tristique.
-                        </p>
-                      </div>
                     </div>
                   </div>
                   <div
