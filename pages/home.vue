@@ -532,54 +532,6 @@
                           </div>
                         </div>
                         <div
-                          class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2a868663 animated fadeInUp"
-                        >
-                          <div
-                            class="elementor-column-wrap elementor-element-populated"
-                          >
-                            <div class="elementor-widget-wrap">
-                              <div
-                                class="elementor-element elementor-element-7703b3d0 elementor-widget elementor-widget-counter"
-                              >
-                                <div class="elementor-widget-container">
-                                  <div class="elementor-counter">
-                                    <div
-                                      class="elementor-counter-number-wrapper"
-                                    >
-                                      <span
-                                        class="elementor-counter-number-prefix"
-                                      ></span>
-                                      <span
-                                        class="elementor-counter-number"
-                                        data-duration="2000"
-                                        data-from-value="0"
-                                        data-to-value="300"
-                                        >300</span
-                                      >
-                                      <span
-                                        class="elementor-counter-number-suffix"
-                                        >...</span
-                                      >
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="elementor-element elementor-element-010d3ca elementor-widget elementor-widget-heading"
-                              >
-                                <div class="elementor-widget-container">
-                                  <h3
-                                    class="elementor-heading-title elementor-size-default"
-                                  >
-                                    Total Perros<br />
-                                    entrenados
-                                  </h3>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
                           class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-15d2830a animated fadeInUp"
                         >
                           <div
