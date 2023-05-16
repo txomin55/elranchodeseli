@@ -1145,6 +1145,27 @@
           </carousel-3d>
         </no-ssr>
       </section>
+
+      <section>
+        <div class="elementor-column-wrap elementor-element-populated">
+          <div class="elementor-widget-wrap">
+            <div
+              class="elementor-element elementor-element-6a3804a elementor-widget elementor-widget-heading animated fadeInUp"
+            >
+              <div class="elementor-widget-container">
+                <h2
+                  class="elementor-heading-title elementor-size-default"
+                >
+                  Donde encontrarnos
+                </h2>
+              </div>
+            </div>
+            <div class="elementor-section elementor-top-section elementor-element elementor-element-74d4ed00 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7374.255718794204!2d-9.086124887786086!3d43.15552912567511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2eb740750d77eb%3A0x12e6903ffe9472c0!2sERDS!5e0!3m2!1sen!2ses!4v1684218079442!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
